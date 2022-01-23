@@ -1,5 +1,5 @@
 
-background {background: url("/background.png"); background-size:cover; background-repeat:no-repeat; overflow-y: scroll; z-index: 2;}
+
 
 #featured {
     height: 210px;
@@ -32,7 +32,7 @@ body > h2 {padding-left: 19.5em;}
 	}
 	
 .whitetext {
-	color:white;} 
+	color:black;} 
 	
 
 .bluetext {
