@@ -1,0 +1,82 @@
+
+#background {background: url("http://spidal.org/background.png"); background-size:cover; background-repeat:no-repeat; overflow-y: scroll; z-index: 2;}
+
+#featured {
+    height: 210px;
+    margin: 5px auto;
+    width: 900px;
+}
+
+a:link {color: #993300;} 
+a:visited {color: #993300;}
+	 
+#block {position: absolute;
+        z-index: 1;}
+		
+.linkcolor {
+    color: #609e7f;}
+
+#link a:link {color: #a89aaa;} 
+#link a:visited {color: #a89aaa;}
+
+ ul.navbar {style= "font-family: Arial; 
+ 	font-size: 32px; 
+ 	background-url: menu.png; 
+ 	list-style-type: none;"
+	}
+
+body > h2 {padding-left: 19.5em;}
+
+.blacktext {
+	color:white;
+	}
+	
+.whitetext {
+	color:white;} 
+	
+
+.bluetext {
+  font-size: medium;
+  color:#007efe;}
+
+#image {position: relative;
+   top: 75px;
+   }
+
+#image2 {position: relative;
+   top: 5px;
+   left: 25px;}
+   
+
+#main {position: relative; 
+	font-family:Ebrima;
+	font-size: medium;
+	color: black;
+	margin-top: 25px;
+	margin-left: 60px;
+	padding: 15px;
+ 	max-width: 1024px;
+	text-align: justify; 
+	}
+
+#logo {position: relative;
+	z-index: 1;}
+
+#upper {text-transform: uppercase;
+	font-weight: bold;}
+
+.upper {text-transform: uppercase;}
+
+	
+
+<script>
+function showmenu(elmnt)
+{
+document.getElementById(elmnt).style.visibility="visible";
+}
+function hidemenu(elmnt)
+{
+document.getElementById(elmnt).style.visibility="hidden";
+}
+</script>
+}
